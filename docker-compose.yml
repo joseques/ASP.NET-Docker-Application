@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  mybrilliantapplication:
+    image: ${DOCKER_REGISTRY}mybrilliantapplication
+    build:
+      context: .
+      dockerfile: MyBrilliantApplication\Dockerfile
